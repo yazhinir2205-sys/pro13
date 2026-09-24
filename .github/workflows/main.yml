@@ -1,0 +1,14 @@
+name: Autograding - Speaker Page CSS
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run 50-mark autograder
+        run: chmod +x test.sh && ./test.sh
