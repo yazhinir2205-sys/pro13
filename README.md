@@ -1,56 +1,68 @@
-# San Joaquin Valley Town Hall – Scott Sampson Page
+<!DOCTYPE html>
+<html lang="en">
 
-## Objective
+<head>
+	<meta charset="utf-8">
+	<title>San Joaquin Valley Town Hall</title>
+	<link rel="shortcut icon" href="c:\Users\Student\Downloads\images.png">
+	<link rel="stylesheet"C:\Users\Student\Documents\Untitled-2.css>
+</head>
 
-Complete the HTML/CSS for the Scott Sampson speaker page and **create a vertical navigation menu in the given html page**
-
-The goal is to reproduce the Town Hall layout using HTML and CSS.
-
-## Requirements
-
-### Page layout
-
-- The body must be 850px wide.
-- The body must be centered horizontally.
-- The body must have a 3px solid `#931420` border.
-- The page background must be `#fffded`.
-
-### Header
-
-- The header must have a 3px solid `#931420` bottom border.
-- The Town Hall logo must float to the left.
-- The `75th` text must use the `.shadow` class.
-- `.shadow` must use a `2px 2px 2px #800000` text shadow.
-
-### Main content
-
-- The main content must clear the floated header image.
-- The section must be 575px wide and float right.
-- The aside must be 215px wide and float right.
-
-### Speaker image
-
-- The dinosaur image must float right.
-- The image must have a 1px solid black border.
-
-### Navigation
-
-- The navigation list must have no bullets.
-- Each navigation item must be 200px wide.
-- Each navigation item must have a 2px double black border.
-- Each item must have a 10px border radius.
-- Each item must have a `3px 3px 0 0 #800000` box shadow.
-- The right-arrow image must be used as the background image.
-- Scott Sampson's current navigation item must use the `current` class.
-
-### Footer
-
-- The footer must have background color `#931420`.
-- The footer must clear the floated content.
-- Footer text must be white and centered.
-
-## Submission
-
-Modify the provided files and commit your changes.
-
-The assignment will be automatically graded using GitHub Actions.
+<body>
+	<header>
+		<img src="c:\Users\Student\Downloads\images (1).jfif" alt="Town Hall logo" height="80">
+		<h2>San Joaquin Valley Town Hall</h2>
+		<h3>Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h3>
+	</header>
+	<main>
+		<section>
+			<h1>Fossil Threads in the Web of Life</h1>
+			<article>
+				<img src="" alt="Scott Sampson with dinosaur">
+				<h2>February<br>Scott Sampson</h2>
+				<p>What's 75 million years old and brand spanking new? A teenage Utahceratops! Come to the 
+				   Saroyan, armed with your best dinosaur roar, when Scott Sampson, Research Curator at the 
+				   Utah Museum of Natural History, steps to the podium. Sampson's research has focused on the 
+				   ecology and evolution of late Cretaceous dinosaurs and he has conducted fieldwork in a number 
+				   of countries in Africa.</p>
+				<p>Scott Sampson is a Canadian-born paleontologist who received his Ph.D. in zoology from the 
+				   University of Toronto. His doctoral work focused on two new species of ceratopsids (horned 
+				   dinosaurs) from the Late Cretaceous of Montana, as well as the growth and function of certopsid 
+				   horns and frills.</p>
+				<p>Following graduation in 1993, Sampson spent a year working at the American Museum of Natural 
+				   History in New York City, followed by five years as assistant professor of anatomy at the New 
+				   York College of Osteopathic Medicine on Long Island. He arrived at the University of Utah 
+				   accepting a dual position as assistant professor in the Department of Geology and Geophysics 
+				   and curator of vertebrate paleontology at the Utah Museum of Natural History. His research 
+				   interests largely revolve around the phylogenetics, functional morphology, and evolution of 
+				   Late Cretaceous dinosaurs.</p>
+				<p>In addition to his museum and laboratory-based studies, Sampson has conducted paleontological 
+				   work in Zimbabwe, South Africa, and Madagascar, as well as the United States and Canada. He was 
+				   also the on-air host for the Discovery Channel's Dinosaur Planet and recently completed a book, 
+				   Dinosaur Odyssey: Fossil Threads in the Web of Life, which is one of the most 
+				   comprehensive surveys of dinosaurs and their worlds to date.</p>
+				<p><b>
+				   For up-to-date information on the luncheon, please 
+				   <a href="mailto:elenor@townhall.com?cc=georgia@townhall.com&reminder=Scott Sampson luncheon">email us</a>.   	
+				</b></p>
+			</article>
+		</section>
+		
+		<aside>
+			<h2>Guest speakers</h2>
+			<nav id="nav_list">
+				<ul>
+					<li><a href="c06x_toobin.html"><h3>October<br>Jeffrey Toobin</h3></a></li>
+					<li><a href="#"><h3>November<br>Andrew Ross Sorkin</h3></a></li>
+					<li><a href="#"><h3>January<br>Amy Chua</h3></a></li>
+					<li><a href="c07x_sampson.html" class="current"><h3>February<br>Scott Sampson</h3></a></li>
+				</ul>
+			</nav>
+			<h3><a href="../index.html">Return to Home page</a></h3>
+		</aside>
+	</main>
+	<footer>
+		<p>&copy; 2016, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+	</footer>
+</body>
+</html>
